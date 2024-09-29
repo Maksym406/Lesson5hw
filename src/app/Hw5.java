@@ -7,14 +7,14 @@ public class Hw5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Введіть суму доходу: ");
+        System.out.print(10000 );
 
         double income = scanner.nextDouble();
 
         double tax = calculateTax(income);
 
 
-        System.out.println("Сума податку: " + tax);
+        System.out.println("0,025 " + tax);
     }
 
     public static double calculateTax(double income) {
